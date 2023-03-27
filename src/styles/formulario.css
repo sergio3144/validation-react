@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bordes-inputs {
+    @apply border border-zinc-500 p-3 rounded-md pl-5 outline-[#6055a5];
+  }
+  .btn-primary {
+    @apply bg-[#38cc8c] mt-3 py-5 text-white font-bold rounded-md hover:opacity-70 duration-300;
+  }
+  .error {
+    @apply text-red-500 text-sm text-end mb-3 mt-1;
+  }
+}
